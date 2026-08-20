@@ -1,0 +1,19 @@
+# Core
+pytz
+
+# Vision (screen_processor.py)
+groq
+mss
+Pillow
+opencv-python
+
+# Desktop automation (automation.py, telegram.py, whatsapp.py, send_message.py)
+pyautogui
+pygetwindow
+pyperclip
+
+# Voice confirmation (send_message.py)
+SpeechRecognition
+
+# UI (ui.py) uses only the standard library (tkinter) — nothing to install.
+# On some Linux distros tkinter ships separately: sudo apt install python3-tk
